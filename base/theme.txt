@@ -1,0 +1,38 @@
+# Anime GRUB Theme by xandemon
+
+desktop-image: "image.png"
+title-text: ""
+terminal-left: "20%"
+terminal-top: "35%"
+terminal-width: "60%"
+terminal-height: "40%"
+
++ boot_menu {
+    left = 3%
+    width = 60%
+    top = 72%
+    height = 10%
+    item_color = "#919090"
+    selected_item_color = "#ffffff"
+    icon_width = 14
+    icon_height = 14
+    item_icon_space = 0
+    item_height = 34 #
+    item_padding = 0
+    item_spacing = 20 #spaces betweeen items ... kinda figures 
+    selected_item_pixmap_style="selectedIcon_*.png"
+    item_pixmap_style="notSelectedIcon_*.png"
+    scrollbar = false
+    scrollbar_width = 10
+}
+
+#+ progress_bar {
+#    id = "__timeout__"
+#    left = 25%
+#    width = 50%
+#    top = 75%
+#    height = 20
+#    text = ""
+#    text_color = "#ffffff"
+#    font = "Norwester Regular 16"
+#}
