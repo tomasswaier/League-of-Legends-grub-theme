@@ -17,9 +17,9 @@ terminal-height: "40%"
     icon_width = 14
     icon_height = 14
     item_icon_space = 0
-    item_height = 34 #
+    item_height = 34 
     item_padding = 0
-    item_spacing = 20 #spaces betweeen items ... kinda figures 
+    item_spacing = 20 
     selected_item_pixmap_style="selectedIcon_*.png"
     item_pixmap_style="notSelectedIcon_*.png"
     scrollbar = false
